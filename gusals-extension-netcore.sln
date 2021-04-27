@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED05E6A3-B8C1-4038-8811-A781DA102644}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8297947A-37D9-40CA-B8E4-E759D9CE0285}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		.lintstagedrc.js = .lintstagedrc.js
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C4B4B020-83FA-4E4F-91AC-5193466ED7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gusals.Extensions", "src\Extensions\Gusals.Extensions.csproj", "{03C19D9E-14DC-4E2D-9F39-AFBF5EF8BC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03C19D9E-14DC-4E2D-9F39-AFBF5EF8BC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C19D9E-14DC-4E2D-9F39-AFBF5EF8BC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C19D9E-14DC-4E2D-9F39-AFBF5EF8BC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C19D9E-14DC-4E2D-9F39-AFBF5EF8BC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F41EDB21-319F-4BA0-8C4C-FA050D942481}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03C19D9E-14DC-4E2D-9F39-AFBF5EF8BC33} = {ED05E6A3-B8C1-4038-8811-A781DA102644}
+	EndGlobalSection
+EndGlobal
