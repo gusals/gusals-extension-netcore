@@ -17,7 +17,6 @@ namespace Gusals.Extensions
         {
             if (@enum == default)
                 return string.Empty;
-
             var attribute = @enum.GetAttribute<DescriptionAttribute>();
             return attribute == default ? @enum.ToString() : attribute.Description;
         }

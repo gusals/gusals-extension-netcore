@@ -1,17 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <NullableReferenceTypes>true</NullableReferenceTypes>
-    <LangVersion>8.0</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageProjectUrl>https://github.com/gusals/gusals-extension-netcore</PackageProjectUrl>
+    <PackageTags>C#, NetCore, Extension</PackageTags>
+    <Description>C#, Net Core Extensions</Description>
+    <PackageVersion>0.0.1</PackageVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Optimize>true</Optimize>
-    <DocumentationFile>bin\Debug\netcoreapp3.1\Extensions.xml</DocumentationFile>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\net5.0\Extensions.xml</DocumentationFile>
     <CustomCommands>
       <CustomCommands>
         <Command>
@@ -24,7 +29,8 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType></DebugType>
-    <DocumentationFile>bin\Release\netcoreapp3.1\Extensions.xml</DocumentationFile>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\net5.0\Extensions.xml</DocumentationFile>
     <CustomCommands>
       <CustomCommands>
         <Command>
